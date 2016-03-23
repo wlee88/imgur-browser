@@ -1,28 +1,10 @@
-ReactStarter
-====
+h1. Imgur Browser
 
-Use this as a starting point for working on chapters of the [Build Web Apps with React JS and Flux](https://www.udemy.com/learn-and-understand-reactjs/) course on Udemy.com.
+-- open src/utils/api.jsx and insert an apikey into the apikey string.
+-- Get started with npm init && gulp serve
 
----
+h2. Description
 
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone https://github.com/StephenGrider/ReactStarter.git
-	> cd ReactStarter
-	> npm install
-	> gulp
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> gulp
-```
+-- this is my test React application which can be used as a study piece/easy way to browser imgur using its api
+-- you must however apply for an apikey through imgur.
+-- this was developed on OSX Yosemite.

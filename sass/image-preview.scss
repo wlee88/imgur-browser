@@ -1,0 +1,36 @@
+.default-dimensions {
+  height: 250px;
+  width:  250px;
+}
+.inset {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  opacity: .7
+}
+.image-preview {
+  display: inline-block;
+  position: relative;
+
+  .glyphicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    opacity: .5;
+
+  }
+  img {
+    @extend .default-dimensions;
+  }
+  video {
+    @extend .default-dimensions;
+    vertical-align: middle;
+    background-color: black;
+  }
+}
